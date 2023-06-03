@@ -23,7 +23,7 @@ pub const CELL_SIZE: f32 = GRID_SIZE / CELL_COUNT as f32;
 
 // Snake
 pub const SNAKE_X: i32 = 0;
-pub const SNAKE_Y: i32 = 0;
+pub const SNAKE_Y: i32 = (CELL_COUNT - 1) as i32;
 pub const SNAKE_SIZE: f32 = CELL_SIZE;
 pub const SNAKE_COLOR: Color = GREEN;
 pub const SNAKE_STEP_INTERVAL: Duration = Duration::from_millis(125);
